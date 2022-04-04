@@ -8,8 +8,9 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.example.busmanagingmvvm.R
 import com.example.busmanagingmvvm.databinding.FragmentRegisterBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class RegisterFragment : Fragment() {
     lateinit var binding:FragmentRegisterBinding
     override fun onCreate(savedInstanceState: Bundle?) {

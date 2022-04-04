@@ -2,4 +2,5 @@
     <string name="app_name">BusManagingMVVM</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="url">https://dummyapi.io/data/v1/user/</string>
 </resources>

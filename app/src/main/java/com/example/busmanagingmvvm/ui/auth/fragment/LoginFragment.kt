@@ -8,7 +8,9 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.example.busmanagingmvvm.R
 import com.example.busmanagingmvvm.databinding.FragmentLoginBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class LoginFragment : Fragment() {
     lateinit var binding:FragmentLoginBinding
     override fun onCreate(savedInstanceState: Bundle?) {
